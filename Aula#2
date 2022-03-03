@@ -1,0 +1,140 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "#2",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyPPlFuHDCgNfPx5bQX59v7w",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MoraesJoseThiago/-PythonClasses/blob/%232/Aula%232\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "10RxwSx1utBm"
+      },
+      "outputs": [],
+      "source": [
+        "#Operadores da soma/subtração -, +\n",
+        "#Operador da multiplicação *\n",
+        "#Operadores da divisão /\n",
+        "\n",
+        "x = 10\n",
+        "y = 15\n",
+        "print(x+y)\n",
+        "print(x*y)\n",
+        "10 / 9\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Operador de resto (E oq sobra na divisão)\n",
+        "print(20%25)\n",
+        "print(\"----------------\")\n",
+        "#Operador da exponenciação ** (Seria 2 elevado a 4)\n",
+        "print(2**4)\n",
+        "print(\"----------------\")\n",
+        "#Operador da divisão inteira // (Ele basicamente arredonda pro mais perto)\n",
+        "print(10//9)"
+      ],
+      "metadata": {
+        "id": "Qz87hEb73x7z"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Boolean (Verdadeiro ou falso (0 ou 1))\n",
+        "\n",
+        "#and (E)\n",
+        "x = 5\n",
+        "print(x > 3 and x < 10)\n",
+        "print(\"----------------\")\n",
+        "#or (ou)\n",
+        "print(x > 3 or x > 10)\n",
+        "print(x < 3 or x > 10)\n",
+        "print(\"----------------\")\n",
+        "#not (Não)\n",
+        "print(not True)"
+      ],
+      "metadata": {
+        "id": "zYqETMEg6cKl"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Input (Receber dados)\n",
+        "\n",
+        "print(\"Qual e o seu nome?\")\n",
+        "nome = input()\n",
+        "print(\"Seja bem vindo: \" + nome) #Posso colocar o + ou ,\n",
+        "\n",
+        "idade = input(\"Qual sua idade? \")\n",
+        "print(\"--------------------------------\")\n",
+        "#--------------------------------------------------\n",
+        "print(\"Seu nome é: {0}, e sua idade é: {1}\".format(nome,idade))"
+      ],
+      "metadata": {
+        "id": "pbFrQW5dBxEw"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Qual e o seu nome?\")\n",
+        "nome = input()\n",
+        "idade = input(\"Qual sua idade? \")\n",
+        "#--------------------------------------------------\n",
+        "print(\"Seu nome é: {0}, e sua idade é: {1}\".format(nome,idade))"
+      ],
+      "metadata": {
+        "id": "Lz2fMjdSFOko"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"Qual seu nome? \")\n",
+        "idade = input(\"Qual sua idade? \")\n",
+        "print(f\"Seu nome é: {nome}, e a sua idade é: {idade}\")"
+      ],
+      "metadata": {
+        "id": "vErqeCt4Fof5"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
