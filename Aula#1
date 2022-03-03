@@ -7,7 +7,7 @@
       "provenance": [],
       "collapsed_sections": [],
       "toc_visible": true,
-      "authorship_tag": "ABX9TyNYtzw/MqoKvGNqSQt9lOq/",
+      "authorship_tag": "ABX9TyNWoETVwAsIqA5nwtlHNvWk",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -45,13 +45,25 @@
       "cell_type": "code",
       "source": [
         "#Int - 0,1,2,3 || float - 0.5, 0.6 1.2\n",
-        "1 + 1.6"
+        "print(1 + 1.6)"
       ],
       "metadata": {
-        "id": "MgWTxX5mfVZG"
+        "id": "MgWTxX5mfVZG",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "91a8db75-2328-4ef5-c2c4-ae0bf6a10b7e"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.6\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -159,7 +171,8 @@
       "cell_type": "code",
       "source": [
         "#Variaveis global - Pode ser usada em qualquer lugar do codigo\n",
-        "#Variaveis local - Pode ser usada apenas naql codigo em especifico"
+        "#Variaveis local - Pode ser usada apenas naql codigo em especifico\n",
+        "print(\"Teste\")"
       ],
       "metadata": {
         "id": "eiAkBGUCp9YF"
